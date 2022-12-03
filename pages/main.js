@@ -2,7 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
+import { useStateContext } from "../context/state";
+import { setGlobalState } from "../context/state";
+
 export default function Home() {
+  const state = useStateContext();
+  console.log(state);
+
   return (
     <div className={styles.container}>
       <Head>

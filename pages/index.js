@@ -5,9 +5,12 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { Input, Button } from "antd";
 
+import { useStateContext } from "../context/state";
+import { setGlobalState } from "../context/state";
+
 export default function Home() {
   const [name, setName] = useState("");
-  console.log(name);
+  const state = useStateContext();
 
   return (
     <div className={styles.container}>
@@ -27,9 +30,11 @@ export default function Home() {
           style={{ width: "20%" }}
           onChange={(e) => setName(e.target.value)}
         />
-        <Button>
-          <Link href="/main">Start</Link>
-        </Button>
+        <Link href="/main" ON>
+          <Button onClick={() => setGlobalState({ ...state, name })}>
+            Start
+          </Button>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
