@@ -1,0 +1,29 @@
+{
+  "1": {
+    "speaker": "Manager",
+    "text": "It’s your last year in high school - a pivotal point in your life - and it’s time to make some tough decisions. It’s time to decide which university programs to apply to! You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it. Which program do you choose to apply to?",
+    "next": "2",
+    "background": "/dog.jpeg"
+  },
+  "2": {
+    "options": {
+      "3": "option 1 --> 1",
+      "20": "option 2 --> 3"
+    },
+    "text": "Which program do you choose to apply to?",
+    "background": "/dog.jpeg"
+  },
+  "3": {
+    "text": "Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    "background": "/dog.jpeg"
+  },
+  "5": {
+    "text": "this is 5, next is 7",
+    "next": "7",
+    "background": "/dog.jpeg"
+  },
+  "7": {
+    "text": "option 7",
+    "background": "/dog.jpeg"
+  }
+}
