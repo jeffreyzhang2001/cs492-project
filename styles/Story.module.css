@@ -106,3 +106,14 @@
   border-color: #46c2cb;
   cursor: pointer;
 }
+
+.singleButton {
+  margin: 8px;
+}
+
+.singlesList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
