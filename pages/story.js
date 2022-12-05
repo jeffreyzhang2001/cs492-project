@@ -2,11 +2,15 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Story.module.css";
-import { CaretRightOutlined, StepBackwardOutlined } from "@ant-design/icons";
+import {
+  CaretRightOutlined,
+  StepBackwardOutlined,
+  InfoCircleOutlined,
+} from "@ant-design/icons";
 // import testPic from "../public/testPic.png";
 import { useStateContext } from "../context/state";
 import { setGlobalState } from "../context/state";
-import { Button, Modal } from "antd";
+import { Button, Modal, Popover } from "antd";
 import story from "../public/story.json" assert { type: "json" };
 
 const API_KEY = "01a71dcd61f94b4da903c4b52475e1f3";
@@ -109,6 +113,21 @@ export default function Home() {
             {page?.speaker}
           </h1>
           {page.text && <p className={styles.mainText}>{page.text}</p>}
+          {/* To show real life relevance through articles/examples */}
+          {page.context && (
+            <Popover
+              content={
+                <div onClick={(e) => e.stopPropagation()}>{page.context}</div>
+              }
+              placement="leftTop"
+              title="Real Life Context"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}
+            >
+              <InfoCircleOutlined className={styles.infoIcon} />
+            </Popover>
+          )}
           <StepBackwardOutlined
             className={styles.backBtn}
             onClick={(e) => {

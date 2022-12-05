@@ -38,7 +38,8 @@
   "4": {
     "text": "You want to enter a piece into the contest, but the thing is, you’re not a very good artist since you just started studying art seriously. The prompt sounds impossible for you to paint! It's... \"a longhaired daschund\". But, your friend recently showed you an AI art generator called WALLE-2 that you could use to make some impressive art. All you have to do is enter the prompt into the tool! You would feel guilty using it though... do you deserve to call it your art?",
     "next": "5",
-    "background": "/artfair.jpg"
+    "background": "/artfair.jpg",
+    "context": "WALLE-2 is based on DALLE-2, OpenAI's popular (but controversial) AI image generating system."
   },
   "5": {
     "options": [
@@ -158,7 +159,8 @@
   "22": {
     "text": "Your hard work almost paid off, and you placed second. You overhear the winner bragging about using an AI image generator to create their submission. You feel frustrated. If you used AI, maybe you would’ve won. Seems like having merit doesn’t pay off!",
     "next": "23",
-    "background": "/artfair.jpg"
+    "background": "/artfair.jpg",
+    "context": "In August 2022, Colorado State Fair's fine arts competition judges awarded first place to a contestant who entered a fully AI-generated piece: nyti.ms/3VR0IA1."
   },
   "23": {
     "options": [

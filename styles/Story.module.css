@@ -77,6 +77,13 @@
   user-select: none; /* Standard */
 }
 
+.infoIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+}
+
 .backBtn {
   position: absolute;
   bottom: 20px;
