@@ -165,7 +165,10 @@ const LocationAd = ({ city, name }) => {
         onCancel={handleCancel}
         footer={false}
       >
-        <p>🚨🚨 HEY {name}! It's YOUR lucky night ... 🚨🚨</p>
+        <p>
+          {/* Need to escape this ' or linter will throw error and Vercel won't deploy */}
+          🚨🚨 HEY {name}! It{"'"}s YOUR lucky night ... 🚨🚨
+        </p>
         {/* <p>💦 Come see Jason Lin ... 3km away in {city}. 💦</p> */}
         <div className={styles.singlesList}>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
