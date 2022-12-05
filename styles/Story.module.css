@@ -27,6 +27,15 @@
   height: 50vh;
 }
 
+.img {
+  /* Make image unselectable */
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .dialogueBox {
   display: flex;
   flex-direction: column;
@@ -48,6 +57,11 @@
   padding: 8px;
   border: 2px solid #eaeaea;
   border-radius: 5px;
+  /* Make text unselectable */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .mainText {
@@ -56,6 +70,32 @@
   letter-spacing: 0.1px; /* optional */
   margin: 10px;
   padding: 5px;
+  /* Make text unselectable */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.backBtn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 35px;
+}
+
+.backBtn:hover {
+  color: #46c2cb;
+  transition: color 0.35s ease, border-color 0.35s ease;
+  border-color: #46c2cb;
+  cursor: pointer;
+}
+
+.endingText {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  font-size: 30px;
 }
 
 @keyframes blink {
@@ -70,9 +110,9 @@
 
 .nextTriangle {
   position: absolute;
-  bottom: 10px;
-  right: 5px;
-  font-size: 30px;
+  bottom: 20px;
+  right: 10px;
+  font-size: 35px;
   animation: blink 1.5s ease-in infinite;
 }
 
@@ -96,6 +136,11 @@
   background-color: rgba(18, 18, 18, 0.83);
   border: 2px solid #eaeaea;
   border-radius: 8px;
+  /* Make text unselectable */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 .optionBox:hover,

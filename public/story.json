@@ -82,7 +82,7 @@
         12,
         "“I made the prompt, everything came from my brain. AI is just a tool - like a paint brush!”"
       ],
-      [12, "It’s gonna happen sooner or later, suck it up!"]
+      [12, "“It’s gonna happen sooner or later, suck it up!”"]
     ],
     "text": "How do you respond?",
     "background": "/artfair.jpg"
@@ -124,16 +124,22 @@
     "background": "/room.jpg"
   },
   "18": {
-    "text": "This puts you on the map. The billionaire shares your piece online and it gets well recieved. People are reposting and reposting - it’s become viral. Luca sees the art and is shocked - it’s in his exact style. He realises that you’ve been using AI art this whole time. He confronts you about this - how could you steal his style, and profit 2 million dollars off of it?",
+    "text": "This puts you on the map. The billionaire shares your piece online and it gets well recieved. People are reposting and reposting - it’s become viral. Luca sees the art and is shocked - it’s in his exact style. He realizes that you’ve been using AI art this whole time and confronts you about it.",
+    "next": "18.1",
+    "background": "/room.jpg"
+  },
+  "18.1": {
+    "speaker": "Luca",
+    "text": "How could you steal my style and profit off of my hard work? I trusted you!",
     "next": "19",
     "background": "/room.jpg"
   },
   "19": {
     "options": [
-      [20, "It’s not technically your art - I made the prompt so it’s mine!"],
+      [20, "“It’s not technically your art - I made the prompt so it’s mine!”"],
       [
         20,
-        "Sure it’s your style, but you can’t prevent me from using it. It’s a style, not your property"
+        "“Sure it’s your style, but you can’t prevent me from using it. It’s a style, not your property!”"
       ]
     ],
     "text": "How do you respond to Luca?",

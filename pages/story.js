@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Story.module.css";
-import { CaretRightOutlined } from "@ant-design/icons";
+import { CaretRightOutlined, StepBackwardOutlined } from "@ant-design/icons";
 // import testPic from "../public/testPic.png";
 import { useStateContext } from "../context/state";
 import { setGlobalState } from "../context/state";
@@ -14,9 +14,20 @@ const API_KEY = "01a71dcd61f94b4da903c4b52475e1f3";
 export default function Home() {
   const state = useStateContext();
   const { name } = state;
+
   const [pageNum, setPageNum] = useState(1);
   const pages = Object.keys(story);
   const page = story[pageNum];
+
+  const [pagesStack, setPagesStack] = useState(["1"]);
+  const goBackPage = () => {
+    if (pagesStack.length > 1) {
+      const newPagesStack = [...pagesStack];
+      newPagesStack.pop();
+      setPagesStack(newPagesStack);
+      setPageNum(newPagesStack[newPagesStack.length - 1]);
+    }
+  };
 
   const [ipData, setIpData] = useState(null);
   useEffect(() => {
@@ -53,7 +64,12 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.visualsBox}>
           {page.background && (
-            <Image alt="Background image" layout="fill" src={page.background} />
+            <Image
+              alt="Background image"
+              layout="fill"
+              className={styles.img}
+              src={page.background}
+            />
           )}
         </div>
         {page.options && (
@@ -63,7 +79,10 @@ export default function Home() {
               <div
                 className={styles.optionBox}
                 key={i}
-                onClick={() => setPageNum(option[0])}
+                onClick={() => {
+                  setPagesStack([...pagesStack, option[0]]);
+                  setPageNum(option[0]);
+                }}
               >
                 <p className={styles.mainText}>{option[1]}</p>
               </div>
@@ -73,7 +92,10 @@ export default function Home() {
         <div
           className={styles.dialogueBox}
           onClick={() => {
-            if (page.next) setPageNum(page.next);
+            if (page.next) {
+              setPagesStack([...pagesStack, page.next]);
+              setPageNum(page.next);
+            }
           }}
         >
           {/* Speaker is optional (only if dialogue is coming from someone, not 3rd person). Use visibility hidden to pad space when no speaker. */}
@@ -87,6 +109,14 @@ export default function Home() {
             {page?.speaker}
           </h1>
           {page.text && <p className={styles.mainText}>{page.text}</p>}
+          <StepBackwardOutlined
+            className={styles.backBtn}
+            onClick={(e) => {
+              e.stopPropagation();
+              goBackPage();
+            }}
+          />
+          {page.is_ending && <h1 className={styles.endingText}>END</h1>}
           <CaretRightOutlined className={styles.nextTriangle} />
         </div>
       </main>
