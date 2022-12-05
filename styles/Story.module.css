@@ -38,11 +38,11 @@
   padding: 15px;
   bottom: 15px;
   align-items: flex-start;
-  background-color: rgba(18, 18, 18, 0.93);
+  background-color: rgba(18, 18, 18, 0.83);
 }
 
 .speaker {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 600;
   margin: 3px;
   padding: 8px;
@@ -51,8 +51,8 @@
 }
 
 .mainText {
-  font-size: 1.5rem;
-  line-height: 120%;
+  font-size: 1.7rem;
+  line-height: 130%;
   letter-spacing: 0.1px; /* optional */
   margin: 10px;
   padding: 5px;
@@ -93,7 +93,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(18, 18, 18, 0.93);
+  background-color: rgba(18, 18, 18, 0.83);
   border: 2px solid #eaeaea;
   border-radius: 8px;
 }

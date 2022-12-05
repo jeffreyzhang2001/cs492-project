@@ -21,7 +21,7 @@ export default function Home() {
   const [ipData, setIpData] = useState(null);
   useEffect(() => {
     // Fetch IP data
-    fetch("https://api.ipgeolocation.io/ipgeo?apiKey=" + API_KEY)
+    fetch("https://api.ipgeolocation.io/ipgeo?apiKey=") //+ API_KEY)
       .then((res) => res.json())
       .then((data) => {
         setIpData(data);
@@ -59,15 +59,13 @@ export default function Home() {
         {page.options && (
           // 'option' represents the index of the page in the dict to navigate to
           <div className={styles.optionsContainer}>
-            {Object.keys(page.options).map((option) => (
+            {page.options.map((option, i) => (
               <div
                 className={styles.optionBox}
-                key={option}
-                onClick={() => setPageNum(option)}
+                key={i}
+                onClick={() => setPageNum(option[0])}
               >
-                <p className={styles.mainText} key={option}>
-                  {page.options[option]}
-                </p>
+                <p className={styles.mainText}>{option[1]}</p>
               </div>
             ))}
           </div>
@@ -78,18 +76,16 @@ export default function Home() {
             if (page.next) setPageNum(page.next);
           }}
         >
-          {/* Speaker is optional (only if dialogue is coming from someone, not 3rd person) */}
-          {
-            <h1
-              className={styles.speaker}
-              style={{
-                visibility: !page?.speaker && "hidden",
-              }}
-            >
-              {/* X is placeholder to push down content */}
-              {page?.speaker}
-            </h1>
-          }
+          {/* Speaker is optional (only if dialogue is coming from someone, not 3rd person). Use visibility hidden to pad space when no speaker. */}
+          <h1
+            className={styles.speaker}
+            style={{
+              visibility: !page?.speaker && "hidden",
+            }}
+          >
+            {/* X is placeholder to push down content */}
+            {page?.speaker}
+          </h1>
           {page.text && <p className={styles.mainText}>{page.text}</p>}
           <CaretRightOutlined className={styles.nextTriangle} />
         </div>
@@ -160,7 +156,7 @@ const ISPAd = ({ city, name, isp }) => {
   return (
     <>
       <Modal
-        title={`IS ${isp.toUpperCase()} FEELING SLOW? 🐢🐢`}
+        title={`IS ${isp?.toUpperCase()} FEELING SLOW? 🐢🐢`}
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
@@ -168,12 +164,12 @@ const ISPAd = ({ city, name, isp }) => {
         width={600}
       >
         <p>
-          🚨🚨 {name} ... HAS {isp.toUpperCase()} BEEN SLOW LATELY? 🐌🦥 ...
+          🚨🚨 {name} ... HAS {isp?.toUpperCase()} BEEN SLOW LATELY? 🐌🦥 ...
           🚨🚨
         </p>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
-          CLICK HERE TO SWITCH FROM {isp.toUpperCase()} TO GIGA FAST INTERNET IN{" "}
-          {city.toUpperCase()} TODAY!
+          CLICK HERE TO SWITCH FROM {isp?.toUpperCase()} TO GIGA FAST INTERNET
+          IN {city.toUpperCase()} TODAY!
         </a>
       </Modal>
     </>

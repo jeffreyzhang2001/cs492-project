@@ -1,30 +1,286 @@
 {
   "1": {
-    "speaker": "Manager",
-    "text": "It’s your last year in high school - a pivotal point in your life - and it’s time to make some tough decisions. It’s time to decide which university programs to apply to! You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it. Which program do you choose to apply to?",
+    "text": "It’s your last year in high school - a pivotal point in your life - and it’s time to make some tough decisions. It’s time to decide which university programs to apply to! You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it.",
+    "next": "1.1",
+    "background": "/room.jpg"
+  },
+  "1.1": {
+    "speaker": "Best Friend",
+    "text": "Which program did you apply to?",
     "next": "2",
-    "background": "/dog.jpeg"
+    "background": "/room.jpg"
   },
   "2": {
-    "options": {
-      "3": "Visual Arts",
-      "20": "Computer Science"
-    },
-    "text": "Which program do you choose to apply to?",
-    "background": "/dog.jpeg"
+    "options": [
+      [2.1, "Visual Arts at WCAD University"],
+      [2.2, "Computer Science at Materloo University"]
+    ],
+    "text": "Which program did you choose to apply to?",
+    "background": "/room.jpg"
+  },
+  "2.1": {
+    "speaker": "Best Friend",
+    "text": "Don’t forget about me when you’re famous! 😛",
+    "next": "3",
+    "background": "/room.jpg"
+  },
+  "2.2": {
+    "speaker": "Best Friend",
+    "text": "Don’t forget about me when you’re rich! 😛",
+    "next": "43",
+    "background": "/room.jpg"
   },
   "3": {
-    "text": "Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text.",
-    "background": "/dog.jpeg"
+    "text": "You’ve been really struggling financially ever since you started university because your parents don’t support your decision to become an artist. There’s an art contest for students happening at your local gallery and the prize is a huge scholarship that’ll really help you out. You won’t have to worry about making rent every month! Plus, your art will be shown at the local gallery - that’ll be great for your career!",
+    "next": "4",
+    "background": "/room.jpg"
+  },
+  "4": {
+    "text": "You want to enter a piece into the contest, but the thing is, you’re not a very good artist since you just started studying art seriously. The prompt sounds impossible for you to paint! It's... \"a longhaired daschund\". But, your friend recently showed you an AI art generator called WALLE-2 that you could use to make some impressive art. All you have to do is enter the prompt into the tool! You would feel guilty using it though... do you deserve to call it your art?",
+    "next": "5",
+    "background": "/artfair.jpg"
   },
   "5": {
-    "text": "this is 5, next is 7",
+    "options": [
+      [6, "Pass off AI art as your own"],
+      [22, "Draw your own art"]
+    ],
+    "text": "What will you enter into the art fair?",
+    "background": "/artfair.jpg"
+  },
+  "6": {
+    "text": "You decide to generate a hyperrealistic piece using WALLE-2. It took you a couple of minutes to tune the adjectives to produce something you liked, but it looks amazing! You get it printed on a canvas immediately and submit it to the gallery without mentioning the AI component.",
     "next": "7",
-    "background": "/dog.jpeg",
-    "has_isp_ad": true
+    "background": "/artfair.jpg"
   },
   "7": {
-    "text": "option 7",
-    "background": "/dog.jpeg"
+    "text": "Congratulations! You won the contest! Everyone LOVES your art and can’t stop talking about it! It must’ve taken you years to develop your skills, and you can now go to university stress free. However, you’re starting to feel guility about passing off the AI generated art as your own.",
+    "background": "/artfair.jpg",
+    "next": "8"
+  },
+  "8": {
+    "options": [
+      [9, "Confess to the judges"],
+      [12, "Hell no! Take the money and run"]
+    ],
+    "text": "Do you confess to the judges?",
+    "background": "/artfair.jpg"
+  },
+  "9": {
+    "text": "Everyone is shocked by the revelation and the judges reconvene to discuss what should be done given this new information.",
+    "next": "10",
+    "background": "/artfair.jpg"
+  },
+  "10": {
+    "text": "After some deliberation, it’s revealed that you still won! Congratulations! The response is polarizing. Some people are angry at you, calling you a fraud and some people think you deserve the prize. \"You’re a fraud! You didn’t make this!”, someone from the crowd screams.",
+    "next": "11",
+    "background": "/artfair.jpg"
+  },
+  "11": {
+    "options": [
+      [
+        12,
+        "“I made the prompt, everything came from my brain. AI is just a tool - like a paint brush!”"
+      ],
+      [12, "It’s gonna happen sooner or later, suck it up!"]
+    ],
+    "text": "How do you respond?",
+    "background": "/artfair.jpg"
+  },
+  "12": {
+    "text": "You go congratulate the 2nd place winner, Luca, and end up befriending him. You tell him how amazing his art is and find out that he will be attending the same university as you are! You now get to go to university on a scholarship! No need to stress about money anymore!",
+    "next": "13",
+    "background": "/artfair.jpg"
+  },
+  "13": {
+    "text": "You try your best in art school, but you just don’t have enough skill to keep up. Your grades begin to fall and you need to do something about it. You want to use AI to generate some art for you  - it’s the only way to not flunk out.",
+    "next": "14",
+    "background": "/room.jpg"
+  },
+  "14": {
+    "options": [
+      [15, "Yes"],
+      [24, "No"]
+    ],
+    "text": "Do you use AI art to cheat on your assignments?",
+    "background": "/room.jpg"
+  },
+  "15": {
+    "text": "After a grueling 4 years, you’ve graduated! You’ve relied heavily on AI to pass your classes but now you’re done. Your friend Luca graduates with you as well. Luca gets a job in graphic design in order to make ends meet, while you’re able to do freelance given the reputation you’ve accrued over the years.",
+    "next": "16",
+    "background": "/room.jpg"
+  },
+  "16": {
+    "text": "A billionaire approaches you about a possible commission. They want a piece in a similar style for their house and are offering you 2 million dollars! You try using the generators but it’s not giving you the right results. You realise that putting some of Luca’s art into the algorithm will give the perfect result. The art you plug in technically isn’t his because he made it for a company - so it should be ok, right? Still, you feel guilty. But 2 million dollars will change your life.",
+    "next": "17",
+    "background": "/room.jpg"
+  },
+  "17": {
+    "options": [
+      [18, "Use it, it’s not technically his art."],
+      [21, "Don’t do it. Just use the results you have already"]
+    ],
+    "text": "Do you feed in Luca’s art to WALLE-2 and pass it off as your own work?",
+    "background": "/room.jpg"
+  },
+  "18": {
+    "text": "This puts you on the map. The billionaire shares your piece online and it gets well recieved. People are reposting and reposting - it’s become viral. Luca sees the art and is shocked - it’s in his exact style. He realises that you’ve been using AI art this whole time. He confronts you about this - how could you steal his style, and profit 2 million dollars off of it?",
+    "next": "19",
+    "background": "/room.jpg"
+  },
+  "19": {
+    "options": [
+      [20, "It’s not technically your art - I made the prompt so it’s mine!"],
+      [
+        20,
+        "Sure it’s your style, but you can’t prevent me from using it. It’s a style, not your property"
+      ]
+    ],
+    "text": "How do you respond to Luca?",
+    "background": "/room.jpg"
+  },
+  "20": {
+    "text": "You are now a world-renowed artist. You’ve done very well for yourself, but you feel like a fraud knowing that you’ve become successful off of working for 3 minutes on each piece, while your friend Luca spends hours upon hours only to be less successful than you.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "21": {
+    "text": "The billionaire isn’t impressed with your work at all and only gives you a small portion of the money. This hurts your career and no one wants to work with you anymore. No more commissions come in, and you’re struggling to make ends meet. You don’t know what to do because your skills are now limited to that of using AI art generators.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "22": {
+    "text": "Your hard work almost paid off, and you placed second. You overhear the winner bragging about using an AI image generator to create their submission. You feel frustrated. If you used AI, maybe you would’ve won. Seems like having merit doesn’t pay off!",
+    "next": "23",
+    "background": "/artfair.jpg"
+  },
+  "23": {
+    "options": [
+      [15, "Yes"],
+      [24, "No"]
+    ],
+    "text": "Should you just start doing AI art?",
+    "background": "/artfair.jpg"
+  },
+  "24": {
+    "text": "Your art gets better and better as you practice more and more. You’re struggling to make ends meet, but that’s the artist lifestyle - right?",
+    "next": "25",
+    "background": "/room.jpg"
+  },
+  "25": {
+    "options": [
+      [26, "Commissions for companies"],
+      [39, "Freelance, online work"]
+    ],
+    "text": "How do you want to make your money?",
+    "background": "/room.jpg"
+  },
+  "26": {
+    "text": "You begin doing comissions for a myriad of companies. The money you get from this is pretty good! As you browse the internet one day, you find that a comic book is being published, and you’re shocked to see that the style is incredibly similar to your own. How did this happen?",
+    "next": "27",
+    "background": "/room.jpg"
+  },
+  "27": {
+    "options": [
+      [28, "Contact the author and ask"],
+      [35, "Go on Fwitter and expose the author"]
+    ],
+    "text": "What do you do in response?",
+    "background": "/room.jpg"
+  },
+  "28": {
+    "text": "The author is delighted you reached out - they’re a big fan! They put your art that they found online into an AI art generator to mirror your style. They see nothing wrong with what they’ve done.",
+    "next": "29",
+    "background": "/room.jpg"
+  },
+  "29": {
+    "options": [
+      [30, "“I didn’t give you permission to use my work”"],
+      [34, "“You’re profiting off of my work, I deserve a share”"]
+    ],
+    "text": "How do you respond to them?",
+    "background": "/room.jpg"
+  },
+  "30": {
+    "text": "The author says that they used work they found on other websites and later traced it back to you as the artist. Because of this, it wasn’t really your work that they took. You realise that because these pieces were comissions, they aren’t yours to give permission to. There’s nothing you can do about this, unless the company you did the comission for wants to, which of course they don’t.",
+    "next": "31",
+    "background": "/room.jpg"
+  },
+  "31": {
+    "options": [
+      [32, "Sue them, they stole your style regardless"],
+      [33, "Welp, I guess there’s nothing I can do..."]
+    ],
+    "text": "What do you do about your stolen style?",
+    "background": "/room.jpg"
+  },
+  "32": {
+    "text": "In an attempt to fight back, the author copyrights the comic book and is successful. They have successfully copyrighted the comic that uses your style. You lost. There’s nothing you can do, just go back to comissioning pieces, and accept that your art is vulnerable to being taken again. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "33": {
+    "text": "You’ve worked your way up to be a great artist, with an amazing and unique style. The style you’ve developed over the years is now profitable, but none of the money is going into your pockets. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use. Hell, there’s a comic book out there using your style and you’re getting none of it. There’s nothing you can do, just go back to comission pieces, and accept that your art is vulnerable to being taken again.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "34": {
+    "text": "The author disagrees, saying that they aren’t technically using your work. Rather, it’s new images that came from their mind. You realise that because these pieces were comissions, they aren’t yours to give permission to. So there’s nothing you can do about this, unless the company you did the comission for wants to - which of course they don’t.",
+    "next": "31",
+    "background": "/room.jpg"
+  },
+  "35": {
+    "text": "You accumulate quite the support online. A lot of people understand your frustration - how could someone profit off of your style?  The author comes out and states that they were simply inspired by your art that they found online. It’s entirely new art, so they didn’t do anything wrong. You realise that because these pieces were comissions, they aren’t yours to give permission to. There’s nothing you can do about this, unless the company you did the comission for wants to - which of course they don’t.",
+    "next": "36",
+    "background": "/room.jpg"
+  },
+  "36": {
+    "options": [
+      [37, "Sue them, they stole your style regardless"],
+      [38, "Welp, I guess there’s nothing I can do..."]
+    ],
+    "text": "What do you do about your stolen style?",
+    "background": "/room.jpg"
+  },
+  "37": {
+    "text": "You threaten to sue, and media attention begins to grow. Many people are on your side - they believe your style was stolen by the author. But, many others believe that you have no grounds to sue; a style isn’t something you own. In an attempt to fight back, the author copyrights the comic book and is successful. They have successfully copyrighted the comic that uses your style. You lost. There’s nothing you can do, just go back to comissioning pieces, and accept that your art is vulnerable to being taken again. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "38": {
+    "text": "You’ve worked your way up to be a great artist, with an amazing and unique style. The style you’ve developed over the years is now profitable, but none of the money is going into your pockets. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use. Hell, there’s a comic book out there using your style and you’re getting none of the recognition. There’s nothing you can do, just go back to comission pieces, and accept that your art is vulnerable to being taken again.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "39": {
+    "text": "You begin sharing your art online with lukewarm success. You keep posting and hoping that at some point your art will gain traction. A few months have passed, but still, nothing. As you browse the internet one day, you find art pieces that look very similar to your style have gotten very popular. They have tens of thousands reposts, and these accounts are accruing thousands in commission profits. Upon further inspection, you find that the people have been using AI art to generate content in your style. Particularly, using your name in the prompt.",
+    "next": "40",
+    "background": "/room.jpg"
+  },
+  "40": {
+    "options": [
+      [
+        41,
+        "Ignore it, there’s nothing that can be done. Plus I’m sure it’s good publicity for me!"
+      ],
+      [42, "Contact a journalist to do a story on this"]
+    ],
+    "text": "What do you do about it?",
+    "background": "/room.jpg"
+  },
+  "41": {
+    "text": "You ignore the issue and continue with your work. You continue to churn out beautiful pieces of art and post them on your social media pages. However, you notice that your views and engagment has gone down immensely. You try to find out why this is by searching up your own name. And you find large amounts of art that look like yours, but aren’t made by you. Your style is being saturated by AI art.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "42": {
+    "text": "A popular newspaper picks up your story, hoping to cash in on the hype of AI art. They publish a story about the accounts that have stolen your style, and how they’ve affected your career. In the next few days, you have hundreds of artists and interested customers messaging you in support, and commissioning you. In the next few months though, you notice that while the original copycat accounts have lost many of their followers, new ones with thousands of followers pop up every week. You can’t help but feel like the issue will never go away.",
+    "background": "/room.jpg",
+    "is_ending": true
+  },
+  "43": {
+    "text": "After 4 long years, graduation approaches and you are ready to get out there and start making money! After going through tons of new grad applications you wait to hear back.",
+    "next": "44",
+    "background": "/room.jpg"
   }
 }
