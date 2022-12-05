@@ -2,8 +2,7 @@
   "1": {
     "text": "It’s your last year in high school - a pivotal point in your life - and it’s time to make some tough decisions. It’s time to decide which university programs to apply to! You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it.",
     "next": "1.1",
-    "background": "/room.jpg",
-    "has_location_ad": true
+    "background": "/room.jpg"
   },
   "1.1": {
     "speaker": "Best Friend",
