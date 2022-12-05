@@ -53,13 +53,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* TEMP PAGE SELECTOR */}
-      <div className={styles.pageSelector}>
+      {/* <div className={styles.pageSelector}>
         {pages.map((p) => (
           <Button key={p} onClick={() => setPageNum(p)}>
             {p}
           </Button>
         ))}
-      </div>
+      </div> */}
 
       {/* POPUP ADS */}
       {page.has_location_ad && <LocationAd city={city} name={name} />}
