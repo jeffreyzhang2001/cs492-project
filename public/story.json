@@ -86,7 +86,8 @@
       [12, "“It’s gonna happen sooner or later, suck it up!”"]
     ],
     "text": "How do you respond?",
-    "background": "/artfair.jpg"
+    "background": "/artfair.jpg",
+    "context": "The contestant who won the art competition with an AI-generated piece has defended his choice in an interview: bit.ly/3F5YvK5"
   },
   "12": {
     "text": "You go congratulate the 2nd place winner, Luca, and end up befriending him. You tell him how amazing his art is and find out that he will be attending the same university as you are! You now get to go to university on a scholarship! No need to stress about money anymore!",
@@ -186,7 +187,8 @@
   "26": {
     "text": "You begin doing comissions for a myriad of companies. The money you get from this is pretty good! As you browse the internet one day, you find that a comic book is being published, and you’re shocked to see that the style is incredibly similar to your own. How did this happen?",
     "next": "27",
-    "background": "/room.jpg"
+    "background": "/room.jpg",
+    "context": "With the recent popularity surrounding AI art generators, illustrators of all kinds are finding their work being used without their permission to generate new art in their exact style: bit.ly/3VLYKRC"
   },
   "27": {
     "options": [
@@ -199,7 +201,8 @@
   "28": {
     "text": "The author is delighted you reached out - they’re a big fan! They put your art that they found online into an AI art generator to mirror your style. They see nothing wrong with what they’ve done.",
     "next": "29",
-    "background": "/room.jpg"
+    "background": "/room.jpg",
+    "context": "With the recent popularity surrounding AI art generators, illustrators of all kinds are finding their work being used without their permission to generate new art in their exact style: bit.ly/3VLYKRC"
   },
   "29": {
     "options": [
@@ -212,7 +215,8 @@
   "30": {
     "text": "The author says that they used work they found on other websites and later traced it back to you as the artist. Because of this, it wasn’t really your work that they took. You realise that because these pieces were comissions, they aren’t yours to give permission to. There’s nothing you can do about this, unless the company you did the comission for wants to, which of course they don’t.",
     "next": "31",
-    "background": "/room.jpg"
+    "background": "/room.jpg",
+    "context": "With the recent popularity surrounding AI art generators, illustrators of all kinds are finding their work being used without their permission to generate new art in their exact style: bit.ly/3VLYKRC"
   },
   "31": {
     "options": [
@@ -225,12 +229,14 @@
   "32": {
     "text": "In an attempt to fight back, the author copyrights the comic book and is successful. They have successfully copyrighted the comic that uses your style. You lost. There’s nothing you can do, just go back to comissioning pieces, and accept that your art is vulnerable to being taken again. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use.",
     "background": "/room.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "context": "In the first successful case of its kind, an artist has successfully copyrighted a comic book fully generated using AI art: bit.ly/3B9egz2."
   },
   "33": {
     "text": "You’ve worked your way up to be a great artist, with an amazing and unique style. The style you’ve developed over the years is now profitable, but none of the money is going into your pockets. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use. Hell, there’s a comic book out there using your style and you’re getting none of it. There’s nothing you can do, just go back to comission pieces, and accept that your art is vulnerable to being taken again.",
     "background": "/room.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "context": "With the recent popularity surrounding AI art generators, illustrators of all kinds are finding their work being used without their permission to generate new art in their exact style: bit.ly/3VLYKRC"
   },
   "34": {
     "text": "The author disagrees, saying that they aren’t technically using your work. Rather, it’s new images that came from their mind. You realise that because these pieces were comissions, they aren’t yours to give permission to. So there’s nothing you can do about this, unless the company you did the comission for wants to - which of course they don’t.",
@@ -253,12 +259,14 @@
   "37": {
     "text": "You threaten to sue, and media attention begins to grow. Many people are on your side - they believe your style was stolen by the author. But, many others believe that you have no grounds to sue; a style isn’t something you own. In an attempt to fight back, the author copyrights the comic book and is successful. They have successfully copyrighted the comic that uses your style. You lost. There’s nothing you can do, just go back to comissioning pieces, and accept that your art is vulnerable to being taken again. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use.",
     "background": "/room.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "context": "Law experts predict an incoming \"wave of litigation\" from artists: bit.ly/3Uxkpvt. And, in the first case of its kind, an artist has successfully copyrighted a comic book fully generated using AI art: bit.ly/3B9egz2."
   },
   "38": {
     "text": "You’ve worked your way up to be a great artist, with an amazing and unique style. The style you’ve developed over the years is now profitable, but none of the money is going into your pockets. All the time you’ve spent honing your unique style didn’t matter, because now it’s for the public to use. Hell, there’s a comic book out there using your style and you’re getting none of the recognition. There’s nothing you can do, just go back to comission pieces, and accept that your art is vulnerable to being taken again.",
     "background": "/room.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "context": "Experts and professional artists alike are concerned about the effect that AI art generators will have on mid-career artists that have finally found their niche: bit.ly/3P4OMIK"
   },
   "39": {
     "text": "You begin sharing your art online with lukewarm success. You keep posting and hoping that at some point your art will gain traction. A few months have passed, but still, nothing. As you browse the internet one day, you find art pieces that look very similar to your style have gotten very popular. They have tens of thousands reposts, and these accounts are accruing thousands in commission profits. Upon further inspection, you find that the people have been using AI art to generate content in your style. Particularly, using your name in the prompt.",
@@ -279,12 +287,14 @@
   "41": {
     "text": "You ignore the issue and continue with your work. You continue to churn out beautiful pieces of art and post them on your social media pages. However, you notice that your views and engagment has gone down immensely. You try to find out why this is by searching up your own name. And you find large amounts of art that look like yours, but aren’t made by you. Your style is being saturated by AI art.",
     "background": "/room.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "context": "Experts and professional artists alike are concerned about the effect that AI art generators will have on mid-career artists that have finally found their niche: bit.ly/3P4OMIK"
   },
   "42": {
     "text": "A popular newspaper picks up your story, hoping to cash in on the hype of AI art. They publish a story about the accounts that have stolen your style, and how they’ve affected your career. In the next few days, you have hundreds of artists and interested customers messaging you in support, and commissioning you. In the next few months though, you notice that while the original copycat accounts have lost many of their followers, new ones with thousands of followers pop up every week. You can’t help but feel like the issue will never go away.",
     "background": "/room.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "context": "A blog post was published reporting on a working artist having her art style imitated with AI generators, and then released under open licenses: bit.ly/3uph1IA"
   },
   "43": {
     "text": "After 4 long years, graduation approaches and you are ready to get out there and start making money! After going through tons of new grad applications you wait to hear back.",
