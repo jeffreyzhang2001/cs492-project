@@ -405,7 +405,7 @@
   "44.5": {
     "text": "You spend the next few weeks...",
     "background": "/techoffice.jpg",
-    "next": 
+    "next": "47"
   },
   "44.9": {
     "text": "Pushing back against your manager feels bad but you feel it's the right thing for you to do. He ends up passing the project off to someone else - another new hire.",
@@ -426,6 +426,39 @@
     "speaker": "Manager",
     "text": "Hey, so it's almost been 2 months since you were hired. I'm informing you that based on our performance indicators, you haven;t been meeting the growth trajectory that we expect out of an L2 engineer. Based on that, you've been placed on a Performance Improvement Plan. I'm being extra transparent with you because I like you. I want to see you put in more work. I don't want to have to put your back against a wall, but we expect more from you.",
     "next": "44.14",
+    "background": "/techoffice.jpg"
+  },
+  "44.14": {
+    "text": "Wait ... what? You're shocked. You've been finishing all the work they've handed to you well before the deadlines. You have no idea how you could be underperforming. How do you respond?",
+    "options": [
+      [44.15, "You decide to work harder to meet these expectations and relay that to your manager. If you work harder and put  in longer hours, mayber you'll get the promotion that your coworker got."],
+      [44.16, "You push back. You've been doing everything you're asked and don't see how you could be underperforming. You won't stand for this unfair treatment."]
+    ],
+    "background": "/techoffice.jpg"
+  },
+  "44.15": {
+    "text": "Your manager is glad to hear that you're willing to put in the work. He begins assigning you additional work that is sometimes well-beyond what you've done before or just very monotonous and time-consuming.",
+    "next": "46",
+    "background": "/techoffice.jpg"
+  },
+  "44.16": {
+    "text": "He only gives you vague and unclear reasons for why you're in the Performance improvement plan in the first place. The conversation gets heated. You're hopeful that a third-party can see the validity of your side of the argument so you get HR involved. Surely they'll be on your side.",
+    "next": "44.17",
+    "background": "/techoffice.jpg"
+  },
+  "44.17": {
+    "text": "Unfortunately, that can't be further from the case. They inform you that their work performance monitoring systems backed by AI have flagged you as an underperformer. They tell you that the system is robust and free of bias, and that you're clearly the one at fault.",
+    "next": "44.18",
+    "background": "/techoffice.jpg"
+  },
+  "44.18": {
+    "text": "When you try to ask for what you can improve at, they say the system takes in a wide array of factors including everything from code output, manager reviews, to activity trackers in your day-to-day laptop activity.",
+    "next": "44.19",
+    "background": "/techoffice.jpg"
+  },
+  "44.19": {
+    "text": "A few uncomfortable weeks later, you're informed that you've been fired for just cause. Some reasons cited include incompetence in the form of underperforming and insubordination.",
+    "is_ending": true,
     "background": "/techoffice.jpg"
   }
 }
