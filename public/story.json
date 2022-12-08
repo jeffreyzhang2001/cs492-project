@@ -680,7 +680,7 @@
     "background": "/techoffice.jpg",
     "options": [
       [47.9, "You think by anonymizing the data, it’s alright. The company might move forward with the project anyway, so you might as well benefit from being recognized."],
-      [47.11, "No, it’s beyond what you believe to be morally acceptable."]
+      [44.13, "No, it’s beyond what you believe to be morally acceptable."]
     ]
   },
   "47.9": {
