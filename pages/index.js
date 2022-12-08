@@ -34,7 +34,7 @@ export default function Home() {
           style={{ width: "20%" }}
           onChange={(e) => setName(e.target.value)}
         />
-        <Link href="/story" ON>
+        <Link href="/story">
           <Button onClick={() => setGlobalState({ ...state, name })}>
             Start
           </Button>
