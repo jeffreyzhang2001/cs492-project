@@ -317,8 +317,10 @@
     "background": "/room.jpg",
     "doc": [
       "Hi 🥰,",
+      "",
       "Our team had a wonderful time interviewing with you! We are so excited to extend an offer for you to join the family at Enviro 🌱!!",
       "We look forward to providing you with some amazing opportunities to grow with us during your early career.",
+      "",
       "Wishing you the best and look forward to hearing back,",
       "Alex",
       "Head of Recruitment at Enviro 🌱"
@@ -331,6 +333,7 @@
     "doc": [
       "Congratulations! We are looking forward to having you join Fwitter as a new grad software engineeer.",
       "Please reply to confirm and we can proceed with next steps.",
+      "",
       "Sincerely,",
       "Fwitter Recruitment Team"
     ]
@@ -356,6 +359,73 @@
   "44": {
     "text": "A few weeks pass by as you onboard onto Fwitter's engineering team. You're excited by the opportunity for impact at Fwitter, and can't wait to take on exciting projects.",
     "next": "44.1",
+    "background": "/techoffice.jpg"
+  },
+  "44.1": {
+    "speaker": "Manager", 
+    "text": "Hey, now that you've finished onboarding, I'm excited to introduce your first big projects. It's super impactful and I can't wait for you to be able to jump Start your career. I'll send along the document now 😊!",
+    "next": "44.2",
+    "background": "/techoffice.jpg"
+  },
+  "44.2": {
+    "text": "You take a look at the document from your manager.",
+    "next": "44.3",
+    "background": "/techoffice.jpg",
+    "doc": [
+      "Problem",
+      "Our location data collection relies on the user explicitly accepting to share their location data. This leads to a loss in data integrity as some users choose not to share this info.",
+      "",
+      "Solution",
+      "In addition to explicitly asking users to share their location data, we want to use IP targeting to implicitly collect the locaiton data of users. IP targeting involves using the user's IP address to approximate their location. This would be built on-top of existing mobile logging infrastructure and would provide valuable location data to the organization."
+    ]
+  },
+  "44.3": {
+    "speaker": "Manager",
+    "text": "Waht do you think?",
+    "background": "/techoffice.jpg",
+    "options": [
+      [44.5, "I'll do it! Most places use IP tracking and it's totally legal. Plus, it's a great way to get a headstart at the company."],
+      [44.6, "I'm not sure... IP tracking seems a bit invasive, especially if these individuals are the ones that have chosen not to share their location data."]
+    ]
+  },
+  "44.6": {
+    "speaker": "Manager", 
+    "text": "IP tracking is totally legal! Your IP address is public info. Just worry about your code, I'll worry about making sure that we're doing the right thing.",
+    "next": "44.7",
+    "background": "/techoffice.jpg"
+  },
+  "44.7": {
+    "text": "Your manager is right, IP tracking is legal and is actually rather commonplace. What will you do about the project?",
+    "background": "/techoffice.jpg",
+    "options": [
+      [44.5, "You decide to take on the project. It'll be hugely impactul for both the company and your career."],
+      [44.9, "You feel like this project does not follow your personal beliefs and insist you want a different project."]
+    ]
+  },
+  "44.5": {
+    "text": "You spend the next few weeks...",
+    "background": "/techoffice.jpg",
+    "next": 
+  },
+  "44.9": {
+    "text": "Pushing back against your manager feels bad but you feel it's the right thing for you to do. He ends up passing the project off to someone else - another new hire.",
+    "next": "44.11",
+    "background": "/techoffice.jpg"
+  },
+  "44.11": {
+    "text": "A few weeks pass and you don't hear much about that project, but you later find out that the other new hire got promoted for their work.",
+    "next": "44.12",
+    "background": "/techoffice.jpg"
+  },
+  "44.12": {
+    "text": "You, on the other hand, have just been given basic tasks here and there. You complete them pretty easily and feel like you're coasting. You don't get any meaningful feedback for a while until you get a message from your manager that they want a 1-on-1 later today.",
+    "next": "44.13",
+    "background": "/techoffice.jpg"
+  },
+  "44.13": {
+    "speaker": "Manager",
+    "text": "Hey, so it's almost been 2 months since you were hired. I'm informing you that based on our performance indicators, you haven;t been meeting the growth trajectory that we expect out of an L2 engineer. Based on that, you've been placed on a Performance Improvement Plan. I'm being extra transparent with you because I like you. I want to see you put in more work. I don't want to have to put your back against a wall, but we expect more from you.",
+    "next": "44.14",
     "background": "/techoffice.jpg"
   }
 }
