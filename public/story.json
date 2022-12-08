@@ -1,10 +1,15 @@
 {
   "1": {
-    "text": "It’s your last year in high school - a pivotal point in your life - and it’s time to make some tough decisions. It’s time to decide which university programs to apply to! You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it.",
+    "text": "It’s your last year in high school - a pivotal point in your life - and it’s time to make some tough decisions. It’s time to decide which university programs to apply to!",
     "next": "1.1",
     "background": "/room.jpg"
   },
   "1.1": {
+    "text": "You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it.",
+    "next": "1.2",
+    "background": "/room.jpg"
+  },
+  "1.2": {
     "speaker": "Best Friend",
     "text": "Which program did you apply to?",
     "next": "2",
@@ -298,7 +303,59 @@
   },
   "43": {
     "text": "After 4 long years, graduation approaches and you are ready to get out there and start making money! After going through tons of new grad applications you wait to hear back.",
-    "next": "44",
+    "next": "43.1",
     "background": "/room.jpg"
+  },
+  "43.1": {
+    "text": "You receive two new emails...",
+    "next": "43.2",
+    "background": "/room.jpg"
+  },
+  "43.2": {
+    "text": "You open the first.",
+    "next": "43.3",
+    "background": "/room.jpg",
+    "doc": [
+      "Hi 🥰,",
+      "Our team had a wonderful time interviewing with you! We are so excited to extend an offer for you to join the family at Enviro 🌱!!",
+      "We look forward to providing you with some amazing opportunities to grow with us during your early career.",
+      "Wishing you the best and look forward to hearing back,",
+      "Alex",
+      "Head of Recruitment at Enviro 🌱"
+    ]
+  },
+  "43.3": {
+    "text": "You open the second.",
+    "next": "43.4",
+    "background": "/room.jpg",
+    "doc": [
+      "Congratulations! We are looking forward to having you join Fwitter as a new grad software engineeer.",
+      "Please reply to confirm and we can proceed with next steps.",
+      "Sincerely,",
+      "Fwitter Recruitment Team"
+    ]
+  },
+  "43.4": {
+    "text": "You know that Enviro is a small non-profit that works to track the carbon footprint of companies to help them become more sustainable.",
+    "next": "43.5",
+    "background": "/room.jpg"
+  },
+  "43.5": {
+    "text": "Fwitter on the other hand, is a large social media company, you don't really use it, but all your friends do.",
+    "next": "43.6",
+    "background": "/room.jpg"
+  },
+  "43.6": {
+    "options": [
+      [45, "Enviro, the small non-profit looking to help make the world more sustainable through carbon footprint tracking."],
+      [44, "Fwitter, a social media platform for voicing your ideas."]
+    ],
+    "text": "Thankful and excited for your career, you reply to",
+    "background": "/room.jpg"
+  },
+  "44": {
+    "text": "A few weeks pass by as you onboard onto Fwitter's engineering team. You're excited by the opportunity for impact at Fwitter, and can't wait to take on exciting projects.",
+    "next": "44.1",
+    "background": "/techoffice.jpg"
   }
 }

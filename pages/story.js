@@ -9,7 +9,6 @@ import {
 } from "@ant-design/icons";
 // import testPic from "../public/testPic.png";
 import { useStateContext } from "../context/state";
-import { setGlobalState } from "../context/state";
 import { Button, Modal, Popover } from "antd";
 import story from "../public/story.json" assert { type: "json" };
 
@@ -92,6 +91,18 @@ export default function Home() {
               </div>
             ))}
           </div>
+        )}
+        {page.doc && (
+          <div className={styles.docContainer}>
+            <div className={styles.docBox}>
+              {page.doc.map((line, i) => (
+                <div key={i}>
+                  <div>{line}</div>
+                  <div className={styles.docVSpace} />
+                </div>
+              ))}
+            </div>
+        </div>
         )}
         <div
           className={styles.dialogueBox}
