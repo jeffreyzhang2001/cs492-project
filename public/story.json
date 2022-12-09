@@ -5,7 +5,7 @@
     "background": "/room.jpg"
   },
   "1.1": {
-    "text": "You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. However, you realize it is not the best degree for employment so you're also considering Computer Science. You heard there is good job security and you think you are decent at it.",
+    "text": "You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. It’s time to decide what University program to apply to. You truly enjoy visual art, are quite talented, and could see yourself being very happy as an artists. Computer Science on the other hand has good job security you think you are decent at it.",
     "next": "1.2",
     "background": "/room.jpg"
   },
@@ -748,12 +748,14 @@
     "text": "A couple years pass by and you’ve become an engineering director at Fwitter. Your work has been instrumental in their success over the last few years. However, the world’s opinion on privacy and data has continuously evolved. Large organizations like Basedbook are being scrutinized over how they’ve handled user privacy.",
     "background": "/techoffice.jpg",
     "next": "47.19",
-    "context": ["https://www.vanityfair.com/news/2020/01/facebook-settlement-facial-recognition-illinois-privacy", "Many organizations including Facebook have gone through intense scrutiny and expensive legal issues over mishandling user data."]
+    "context": ["https://www.vanityfair.com/news/2020/01/facebook-settlement-facial-recognition-illinois-privacy", "Many organizations including Facebook have gone through intense scrutiny and expensive legal issues over mishandling user data."],
+    "has_location_ad": true
   },
   "47.19": {
-    "text": "It’s not long before that scrutiny turns towards Fwitter. The work you did on location data years ago is dug up as part of a large scale investigation into mishandling of user data. Alongside numerous other Fwitter executives, you  find yourself at the forefront of major lawsuits.",
+    "text": "It’s not long before that scrutiny turns towards Fwitter. The work you did on location data years ago is dug up as part of a large scale investigation into mishandling of user data. Alongside numerous other Fwitter executives, you find yourself at the forefront of major lawsuits.",
     "background": "/techoffice.jpg",
-    "is_ending": true
+    "is_ending": true,
+    "has_isp_ad": true
   },
   "47.15": {
     "text": "He laughs at you, telling you you’re just a random employee. Your company will just give the project to another employee that’s willing to put in the work. What do you do?",
