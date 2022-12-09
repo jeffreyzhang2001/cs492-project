@@ -5,7 +5,7 @@
     "background": "/room.jpg"
   },
   "1.1": {
-    "text": "You truly enjoy Visual Arts, are quite talented, and could see yourself being very happy as an artist. It’s time to decide what University program to apply to. You truly enjoy visual art, are quite talented, and could see yourself being very happy as an artists. Computer Science on the other hand has good job security you think you are decent at it.",
+    "text": "It’s time to decide what University program to apply to. You truly enjoy visual art, are quite talented, and could see yourself being very happy as an artists. Computer Science on the other hand has good job security you think you are decent at it.",
     "next": "1.2",
     "background": "/room.jpg"
   },
