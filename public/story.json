@@ -623,7 +623,7 @@
     "text": "The chatbot employs what you’re told is Cognitive Behavioural Therapy. It helps you recognize some of your unhealthy habits and pushes you to reflect on the reasons behind your overworking. You find yourself improving how you balance work-life and eventually move on from the program.",
     "next": "46.12",
     "background": "/techoffice.jpg",
-    "context": ["https://dl.acm.org/doi/fullHtml/10.1145/3453175", "Woebot and similar mental health chatbots have been shown to be effective at implementing CBT therapy, showing significant improvements in signs of depression within 2 weeks. CBT therapy is a form of therapy that helps the individual recognize unhealthy patterns of thinking and confront them. It encourages reflection of own and others’ behaviours and helps face fears and problems head on. It uses strategies like learning to find confidence in ones abilities."]
+    "context": ["https://dl.acm.org/doi/fullHtml/10.1145/3453175", "Woebot and similar mental health chatbots have been shown to be effective at implementing CBT therapy, showing significant improvements in signs of depression within 2 weeks. CBT therapy is a form of therapy that helps the individual recognize unhealthy patterns of thinking and confront them. It encourages reflection of own and others’ behaviours and helps face fears and problems head on. It uses strategies such as confidence building to help improve mental health."]
   },
   "46.12": {
     "text": "A few years pass and you mostly forget about the program until you see a news article mentioning that ever-so familiar chat-bot. It turns out they were selling “anonymized” packages of conversation data to organizations seeking to build better customer service bots.",
