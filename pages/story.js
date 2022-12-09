@@ -35,7 +35,7 @@ export default function Home() {
   const [ipData, setIpData] = useState(null);
   useEffect(() => {
     // Fetch IP data
-    fetch("https://api.ipgeolocation.io/ipgeo?apiKey=") //+ API_KEY)
+    fetch("https://api.ipgeolocation.io/ipgeo?apiKey=" + API_KEY)
       .then((res) => res.json())
       .then((data) => {
         setIpData(data);
