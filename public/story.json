@@ -468,28 +468,28 @@
   "45": {
     "text": "Onboarding at Enviro is fast and you’re super excited to be working on huge parts of their system. The team is small and every project matters.",
     "next": "45.1",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.1": {
     "text": "Things go well for the first few weeks, but you find out the organization is having cash flow problems. Investors aren’t seeing fast enough growth and want Enviro to find a way to be more profitable.",
     "next": "45.2",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.2": {
     "text": "Companies currently pay you for your consulting services as you design approaches to improving their operations to be more eco-friendly. One of your company strengths is that you’re able to make data-driven decisions.",
     "next": "45.3",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.3": {
     "text": "An organization reaches out to you in hopes of being that lifeline. An idea is posed of creating custom carbon footprint assessments. They ask you to try to frame any of your findings as positive and are happy to pay a lot to get such an assessment.",
     "next": "45.4",
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": ["https://www.fastcompany.com/90626274/pour-one-out-for-the-tech-bro-uniform-patagonia-ditches-corporate-logos-on-its-vests", "Organizations--especially those that brand themselves as environmentally friendly--want to stay far from those that might hurt that image. For example, Patagonia has stated that they stopped doing corporate branded merchandise orders due to the short lifespan of branded merch (moving companies means buying more merch) but is rumoured to have done it to “disentangle” from tech orgs which tend to not be ecofriendly."]
   },
   "45.4": {
     "text": "The organization hopes to launch a new initiative that helps to frame itself as eco-friendly, and want this to be a critical part of that campaign.",
     "next": "45.5",
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": ["https://www.engadget.com/is-big-tech-greenwashing-its-environmental-responsibilities-ahead-of-cop-26-170038455.html", "Organizations like Google, Microsoft, and Amazon have all been accused of greenwashing. At the same time, campaigns like Microsoft's plan to be carbon negative by 2030 can have genuinely good impacts if done honestly."]
 
   },
@@ -499,7 +499,7 @@
       [45.6, "Yes, Enviro needs to do whatever it can to support its primary goal of helping organizations become environmentally-friendly. You’re here to make the world a better place."],
       [45.7, "No - you feel uneasy about such a large company looking to only frame itself as eco-friendly. You are very skeptical about the company’s motivations."]
     ],
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": [
       "https://www.hrdconnect.com/2018/10/22/pressures-that-have-caused-12-of-employees-to-act-unethically-at-work/",
       "Lack of resources and lack of pressure are the top two reasons for unethical behaviour in organizations."
@@ -508,23 +508,23 @@
   "45.6": {
     "text": "You spend the next month designing and implementing a system that custom tracks the large companies emissions. You put a lot of effort into ensuring the integrity of the data.",
     "next": "45.8",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.8": {
     "text": "You present your work to the company and are eager to hear their thoughts.",
     "next": "45.9",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.9": {
     "text": "This is USELESS to us. We can’t let out consumers see the good AND bad, they will just think we are bad. We need just the good information presented and endorsed by your company",
     "speaker": "Client Company",
     "next": "45.11",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.11": {
     "text": "The company is extremely unhappy with your presentation and demands a re-work of the work you did.",
     "next": "45.12",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.12": {
     "text": "At this point, you have complete ownership over the project and it’s your decision.",
@@ -532,17 +532,17 @@
       [45.13, "Yes, you go back to the drawing board to figure out how to frame the company in a positive light to keep Enviro afloat."],
       [45.7, "No, you refuse to compromise the integrity of the data you are working with as it goes against what Enviro and you personaly stand for."]
     ],
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.13": {
     "text": "The company is much happier with its positive portrayal and things are looking upward for Enviro. You are celebrated at work, receive a large bonus as commission from the project, and you and your coworkers rejoice at the success.",
     "next": "45.14",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.14": {
     "text": "A few weeks later, the big company you consulted for is under fire for green washing.",
     "next": "45.15",
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": [
       "https://www.biospace.com/article/mckinsey-under-fire-for-allegedly-advising-purdue-and-fda-concurrently/",
       "Consulting companies frequently under fire for conflicts of interest such as McKinsey for advising Purdue and FDA concurrently."
@@ -551,32 +551,32 @@
   "45.15": {
     "text": "The reports circle-back to Enviro and destroy its reputation. Enviro goes out of business in a matter of months as it cannot withstand the negative PR.",
     "next": "45.15",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.16": {
     "text": "You go back to job searching and are relatively financially secure. A part of you feels guilty for how Enviro ended up but you feel as if the result was somewhat out of your control.",
     "is_ending": true,
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "45.7": {
     "text": "Enviro’s financial problems worsen. With pressures mounting, you pour more and more hours into your work. The stress of work creeps into other parts of you life and you spend many late nights working on improving Enviro’s existing services.",
     "next": "46",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46": {
     "text": "Weeks pass by and you end up working many late-nights just to keep up with the workload. This eats away at your free-time and begins to weigh on your mental health. You’re driven by the the vision of a promotion and your dreams of growing your career.",
     "next": "46.1",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.1": {
     "text": "As weeks turn to months, your friends and family wonder why you’ve been so closed off, but you’re fixated on your career and struggle to stay connected. You see your friends posting about the things they’re doing at work on Linkedin and feel like you’re falling behind. If you can’t even meet expectations, how are you supposed to exceed them and get the promotions you want.",
     "next": "46.2",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.2": {
     "text": "Your manager starts to see you seem uninterested in social events and seem absent minded in meetings. He flags you as potentially having mental health issues and HR reaches out to you.",
     "next": "46.3",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.3": {
     "text": "You’re informed that coworkers have noticed a sense of absent-mindedness and are concerned about your well-being. They say the organization has resources to support you if you need them. How will you deal with your stress?",
@@ -584,7 +584,7 @@
       [46.4, "You ask for resources. Going through this on your own is draining and you want help."],
       [46.13, "On your own. It’s how you’ve always done it. Sbotify is your best friend and you don’t need anyone else’s help."]
     ],
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.4": {
     "text": "HR tells you about how you can connect with a professional, but says that the process can be rather slow to be matched. They go on to say that your workplace is launching a new initiative that has employees work with AI mental health coaches. Studies have shown they can be hugely beneficial. What do you want to do?",
@@ -592,65 +592,65 @@
       [46.5, "You don’t think AI bots can help. They are too artifical and you’d rather wait for a real professional."],
       [46.6, "You’re optimistic about AI-based resources and opt into the new program."]
     ],
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.5": {
     "text": "You register for a therapy service designed to match you with a therapist. You’re excited at first, hopeful that it can help you handle the stress you’ve been under.",
     "next": "46.7",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.7": {
     "text": "Unfortunately, that excitement fades over the weeks it takes for the matching process to complete. Therapists are in short supply and finding one that matches the goals you have makes the process even slower.",
     "next": "46.8",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.8": {
     "text": "Before you’re even matched with a therapist, you end up burning out. One night you pass out in-front of the office while trying to head home for the night and a coworker finds you shivering on the floor in the morning. You’re forced to take paid-time-off and news spreads around about poor HR practices at your organization.",
     "next": "46.9",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.9": {
     "text": "Eventually, you’re matched up with a therapist. While they certainly help you understand your feelings, you wish you could have gotten help sooner.",
     "is_ending": true,
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.6": {
     "text": "You get set up with a mental health chatbot that’s built on-top of the newest AI language model built specifically to optimize for effective dialogue - chatGPT (https://chat.openai.com/).",
     "next": "46.11",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.11": {
     "text": "The chatbot employs what you’re told is Cognitive Behavioural Therapy. It helps you recognize some of your unhealthy habits and pushes you to reflect on the reasons behind your overworking. You find yourself improving how you balance work-life and eventually move on from the program.",
     "next": "46.12",
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": ["https://dl.acm.org/doi/fullHtml/10.1145/3453175", "Woebot and similar mental health chatbots have been shown to be effective at implementing CBT therapy, showing significant improvements in signs of depression within 2 weeks. CBT therapy is a form of therapy that helps the individual recognize unhealthy patterns of thinking and confront them. It encourages reflection of own and others’ behaviours and helps face fears and problems head on. It uses strategies like learning to find confidence in ones abilities."]
   },
   "46.12": {
     "text": "A few years pass and you mostly forget about the program until you see a news article mentioning that ever-so familiar chat-bot. It turns out they were selling “anonymized” packages of conversation data to organizations seeking to build better customer service bots.",
     "is_ending": true,
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6610568/", "Chatbots show almost no adverse effects -- generally acts as a possible positive but otherwise generally neutral. 1 in 759 participants showed adverse effects where they developed paranoia and exited the study. The most commonly cited concern about chatbots and health tech in general is the potential for data breaches and loss of personal information."]
   },
   "46.13": {
     "text": "Sbotify launches a new feature that’s designed to suggest music based on your mood. While the systems behind it are only explained in vague ways, its designed to help the user achieve the moods and feelings they want on a day-to-day basis.",
     "next": "46.14",
-    "background": "/techOffice.jpg",
+    "background": "/techoffice.jpg",
     "context": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3741536/", "3 functions of music: 1. regulate mood and arousal. 2. self-awareness. 3. social relatedness."]
   },
   "46.14": {
     "text": "You think this will be a great way to help you beat your feelings on your own, so you join the beta-test.",
     "next": "46.15",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.15": {
     "text": "Just like how social media are designed to keep you scrolling, music platforms are designed to keep you listening. While you thought you wanted to listen to uplifting music, you become attached to moody music about heart-break and loneliness. It’s not exactly what you were hoping for, but it helps you confront your feelings.",
     "next": "46.16",
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "46.16": {
     "text": "You eventually find that music is a haven for your feelings. Over the years, you notice that your music always seems to match your mood. Whether that’s a good thing or not, you’re not really sure.",
     "is_ending": true,
-    "background": "/techOffice.jpg" 
+    "background": "/techoffice.jpg" 
   },
   "47": {
     "text": "The project launches and you’re excited for your feedback. You become known as the “mobile logs” expert on the team. Your manager messages you about having a 1-on-1 to talk about the project and next-steps for you on the team.",
