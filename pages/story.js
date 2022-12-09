@@ -52,13 +52,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* TEMP PAGE SELECTOR */}
-      {/* <div className={styles.pageSelector}>
+      <div className={styles.pageSelector}>
         {pages.map((p) => (
           <Button key={p} onClick={() => setPageNum(p)}>
             {p}
           </Button>
         ))}
-      </div> */}
+      </div>
 
       {/* POPUP ADS */}
       {page.has_location_ad && <LocationAd city={city} name={name} />}
@@ -128,10 +128,12 @@ export default function Home() {
           {page.context && (
             <Popover
               content={
-                <div onClick={(e) => e.stopPropagation()}>{page.context}</div>
+                <div onClick={(e) => e.stopPropagation()}>
+                  {page.context.length > 1 ? page.context[1] : page.context[0]}
+                </div>
               }
               placement="leftTop"
-              title="Real Life Context"
+              title={page.context.length > 1 ? <a href={page.context[0]} target="_blank" rel="noreferrer">Real Life Context 🔗</a> : "Real Life Context"}
               onClick={(e) => {
                 e.stopPropagation();
               }}
